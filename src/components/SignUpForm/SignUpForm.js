@@ -43,7 +43,6 @@ handleChange = (evt) => {
   };
 
  
-
  render() {
     const disable = this.state.password !== this.state.confirm;
     return (
@@ -58,6 +57,8 @@ handleChange = (evt) => {
             <input type="password" name="password" value={this.state.password} onChange={this.handleChange} required />
             <label>Confirm</label>
             <input type="password" name="confirm" value={this.state.confirm} onChange={this.handleChange} required />
+            <label>I agree to the Terms and Conditions, User Agreements, Privacy Policy, and Shipping Agreements</label>
+            <input type="checkbox" name="Agreements" value={this.state.agree} required />
             <button type="submit" disabled={disable}>SIGN UP</button>
           </form>
         </div>

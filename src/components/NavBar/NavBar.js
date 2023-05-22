@@ -12,7 +12,10 @@ function handleLogOut() {
     <nav>
      <Link to="/orders" >Order History</Link>
      &nbsp; | &nbsp;
-     <Link to="orders/new ">New Order</Link> 
+     <Link to="orders/new" >New Order</Link> 
+     &nbsp; | &nbsp;
+     <Link to="/map" >Nonprofit Map</Link>
+     &nbsp; | &nbsp;
      <span>Welcome, {user.name}</span>
      <Link to='' onClick={handleLogOut}>Log Out</Link>
     </nav>
