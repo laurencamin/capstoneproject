@@ -1,0 +1,8 @@
+.MenuList {
+    background-color: var(--lightblue);
+    border: .1vmin solid var(--red);
+    border-radius: 2vmin;
+    margin: 3vmin 0;
+    padding: 3vmin;
+    overflow-y: scroll;
+    }

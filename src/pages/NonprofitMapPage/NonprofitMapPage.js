@@ -3,7 +3,7 @@ import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 import { Marker } from '@react-google-maps/api';
 
 const containerStyle = {
-  width: '500px',
+  width: '700px',
   height: '500px'
 };
 
@@ -12,7 +12,7 @@ const center = {
   lng: -96.808891
 };
 
-function MyComponent() {
+function NonprofitMap() {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY
@@ -36,7 +36,7 @@ function MyComponent() {
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={10}
+        zoom={40}
         onLoad={onLoad}
         onUnmount={onUnmount}
       >
@@ -52,39 +52,4 @@ function MyComponent() {
   ) : <></>
 }
 
-export default React.memo(MyComponent)
-
-// import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
-// import { useMemo } from "react";
-// import "./NonprofitMapPage.module.css";
-
-// const NonprofitMapPage = () => {
-//   const { isLoaded } = useJsApiLoader({
-//     googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY,
-//   });
-//   console.log(isLoaded)
-//   const center = useMemo(() => ({ lat: 32.779167, lng: -96.808891 }), []);
-
-//   return (
-//     <div className="App">
-//       {!isLoaded ? (
-//         <h1>Loading...</h1>
-//       ) : (
-//         <>
-//         <h1>Nonprofit Navigator</h1>
-//         <GoogleMap
-//           mapContainerClassName="map-container"
-//           center={center}
-//           zoom={10}
-//           style={{width: "100vw", height: "100vh"}}
-//         >
-//           <Marker position={{ lat: 32.779167, lng: -96.808891 }} />
-//           <Marker position={{ lat: 33.01499915796156, lng: -96.75539581982746 }}/>
-//         </GoogleMap>
-//         </>
-//       )}
-//     </div>
-//   );
-//       }
-
-// export default NonprofitMapPage;
+export default React.memo(NonprofitMap)
