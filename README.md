@@ -7,8 +7,10 @@ ConnectedCorps is the fullstack MERN application I created for my capstone proje
 
 ConnectedCorps is a fullstack MERN application that allows recipients in need of essential items to obtain them while retaining privacy. Recipients can order a combination of items from every category. For example, recipients can order a combination of items in separate categories such as first aid kits, children's toys, and pet supplies. In addition, they can use a map as a reference to help them find nonprofit organizations in their communities.
 ## Screenshots
+<img width="739" alt="ConnectedCorps Site Screenshot" src="https://github.com/laurencamin/capstoneproject/assets/125404995/5d8fd7e4-eb17-4f22-8d2f-762306156b3f">
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img width="960" alt="ConnectedCorps Map Screenshot" src="https://github.com/laurencamin/capstoneproject/assets/125404995/cb42d855-a1a2-4505-892e-c500e33dc158">
+(https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
 ## Tech Stack
