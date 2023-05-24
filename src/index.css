@@ -1,13 +1,13 @@
 /* CSS Custom Properties */
 :root {
   --white: #FFFFFF;
-  --tan-1: #FBF9F6;
-  --tan-2: #E7E2DD;
-  --tan-3: #E2D9D1;
-  --tan-4: #D3C1AE;
-  --orange: #F67F00;
-  --text-light: #968c84;
-  --text-dark: #615954;
+  --lightblue: #CCE6F4;
+  --aquablue: #4BA3C3;
+  --deepblue: #175676;
+  --brickred: #BA324F;
+  --red: #D62839;
+  --text-light: #454955;
+  --text-dark: #000000;
 }
 
 *, *:before, *:after {
@@ -21,7 +21,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--tan-4);
+  background-color: var(--lightblue);
   padding: 2vmin;
   height: 100vh;
 }
@@ -69,9 +69,9 @@ code {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--tan-1);
+  background-color: var(--lightgray);
   color: var(--text-dark);
-  border: .1vmin solid var(--tan-3);
+  border: .1vmin solid var(--red);
   border-radius: 1vmin;
   padding: .6vmin;
   text-align: center;
@@ -80,13 +80,13 @@ code {
 
 .form-container {
   padding: 3vmin;
-  background-color: var(--tan-1);
-  border: .1vmin solid var(--tan-3);
+  background-color: var(--lightgray);
+  border: .1vmin solid var(--red);
   border-radius: 1vmin;
 }
 
 p.error-message {
-  color: var(--orange);
+  color: var(--red);
   text-align: center;
 }
 
@@ -106,7 +106,7 @@ label {
 input {
   padding: 1vmin;
   font-size: 2vmin;
-  border: .1vmin solid var(--tan-3);
+  border: .1vmin solid var(--black);
   border-radius: .5vmin;
   color: var(--text-dark);
   background-image: none !important; /* prevent lastpass */
@@ -114,14 +114,14 @@ input {
 }
 
 input:focus {
-  border-color: var(--orange);
+  border-color: var(--blue);
 }
 
 button, a.button {
   margin: 1vmin;
   padding: 1vmin;
   color: var(--white);
-  background-color: var(--orange);
+  background-color: var(--red);
   font-size: 2vmin;
   font-weight: bold;
   text-decoration: none;
@@ -144,7 +144,7 @@ button.btn-xs {
 
 button:disabled, form:invalid button[type="submit"] {
   cursor: not-allowed;
-  background-color: var(--tan-4);
+  background-color: var(--gray);
 }
 
 button[type="submit"] {
