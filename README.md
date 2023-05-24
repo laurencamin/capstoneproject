@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# ConnectedCorps
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ConnectedCorps is the fullstack MERN application I created for my capstone project. 
 
-## Available Scripts
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+ConnectedCorps is a fullstack MERN application that allows recipients in need of essential items to obtain them while retaining privacy. Recipients can order a combination of items from every category. For example, recipients can order a combination of items in separate categories such as first aid kits, children's toys, and pet supplies. In addition, they can use a map as a reference to help them find nonprofit organizations in their communities.
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Front-end:** React, JavaScript, HTML, CSS,
 
-### `npm run build`
+**Back-end:** Node, Express, Mongodb, Mongoose
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**API:** Google Maps: @react-google-maps/API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Getting Started
+I used Trello to help me plan my project. 
+Trello Link:
+https://trello.com/invite/b/odKbViwJ/ATTIb6943fcc03f8eb895d41086041cc8a482956EB97/connectedcorps 
+I used render to deploy my capstone project.
+Deployed Site:
+https://connected-corps-capstone.onrender.com/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Unsolved Problems
 
-## Learn More
+One unsolved problem I am trying to fix is the ability for recipients to build custom essential items that may not be available on the list of items available. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Another unsolved problem was being able to add separate profiles for recipients and nonprofit organizations on the site. 
+## Future Enhancements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+I may add more features to allow recipients and nonprofit organizations to interact with each other.
+## Acknowledgements
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you to every person who inspired me to pursue my goals. 
