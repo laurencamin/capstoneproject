@@ -10,7 +10,7 @@ ConnectedCorps is a fullstack MERN application that allows recipients in need of
 <img width="739" alt="ConnectedCorps Site Screenshot" src="https://github.com/laurencamin/capstoneproject/assets/125404995/5d8fd7e4-eb17-4f22-8d2f-762306156b3f">
 
 <img width="960" alt="ConnectedCorps Map Screenshot" src="https://github.com/laurencamin/capstoneproject/assets/125404995/cb42d855-a1a2-4505-892e-c500e33dc158">
-(https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 
 
 ## Tech Stack
